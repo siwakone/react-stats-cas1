@@ -68,3 +68,25 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+Ce que tu veux
+Dans ce point de contrôle, nous allons créer notre premier composant basé sur les classes et nous allons aussi créer notre premier état.
+
+ 
+
+
+Instructions
+Créez un projet avec create-react-app.
+Transformez le App.js en un composant basé sur les classes.
+Implémentez un état pour cette classe contenant une Personne ={ fullName,bio, imgSrc, profession} et un affichage booléen.
+Ajoutez un bouton qui bascule l’état de l’affichage. Lorsque l’état de l’émission est vrai, le profil de la personne apparaît.
+Créez un champ qui montre l’intervalle de temps depuis que le dernier composant a été monté en utilisant le cycle de vie du composant.
+Astuce : utilisez la méthode setInterval.
+
+echo "# react-stats-cas1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/siwakone/react-stats-cas1.git
+git push -u origin main
